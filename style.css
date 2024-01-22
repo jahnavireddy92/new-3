@@ -1,0 +1,22 @@
+button{
+  border-radius:8px;
+  background-color:yellow;
+  border:2px solid yellow;
+  padding:4px;
+}
+.high{
+  color:seagreen;
+}
+#country,#state{
+  background-color:lightgrey;
+}
+form select{
+  width:700px;
+}
+body{
+  padding-left:20px;
+}
+
+
+
+
