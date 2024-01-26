@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel='stylesheet'href='style.css'></link>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+<head>
+    <link rel='stylesheet' href='style.css'></link>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   </head>
   <body>
-    <form>
-      <label for='country'><b>Country/Region<b></label>
-      <br>
-        <select id='country'>
-<option>India</option><option>UK</option>
- <option>US</option>
-          </select>
-        <br>
-        <br>
-<label for='fullname' ><b>Full name(First and Last name)<b></label>
-      <br>
-<input type='text' id ='fullname' size='100'> 
-        <br>
-        <br>
-<label for='phone'><b>Mobile Number<b></label>
- <br>
- <input type='text'id='phone'size='100'> 
-  <p>May be used to assist delivery</p>
-  <label for='pin'><b>Pincode<b></label>
+<form>
+      <label for='country'>Country/Region</label>
   <br>
- <input type='text'Placeholder='6 digits [0-9] PIN code' id='pin'size='100'>
+        <select id='country'>
+          <option>India</option>
+          <option>UK</option>
+          <option>US</option>
+          </select>
+  <br>
+  <br>
+      <label for='fullname' >Full name(First and Last name)</label>
+      <br>
+       <input type='text' id ='fullname'> 
         <br>
         <br>
-<label for='home'><b>Flat, House no., Building, Company, Apartment<b></label>
+        <label for='phone'>Mobile Number</label>
+        <br>
+        <input type='text'id='phone'>
+       <p>May be used to assist delivery</p>
+  <label for='pin'>Pincode</label>
+       <br>
+       <input type='text'Placeholder='6 digits [0-9] PIN code' 
+        id='pin'>
+        <br>
+        <br>
+         <label for='home'>Flat, House no., Building, Company, 
+          Apartment</label>
       <br>
-<input type='text'id='home'size='100'>
+<input type='text'id='home'>
       <br>
         <br>
- <label for='addr'><b>Area, Street, Sector,Village<b></label>
+ <label for='addr'>Area, Street, Sector,Village</label>
       <br>
-<input type='text'id='addr'size='100'>
+<input type='text'id='addr'>
        <br>
         <br>
-  <label for='lmark'><b>Landmark<b></label>
+  <label for='lmark'>Landmark</label>
       <br>
-      <input type='text' Placeholder='E.g. near apollo hospital'id='lmark'size='100'>
+      <input type='text' Placeholder='E.g. near apollo hospital'id='lmark'>
      <br>
         <br>
    <div class='combine'>
-  <label for='town'><b>Town/City<b></label>
+  <label for='town'>Town/City</label>
     <br>
- <input type='text'size='100'>
- <br> 
-   <br>
-<label for='state'><b>State<b></label>
+ <input type='text'>
+<br>
+ <br>
+  </div>
+  <div class='combine'>
+<label for='state'>State</label>
   <br>
   <select id='state'>
     <option>choose a state</option>
@@ -59,12 +64,14 @@
   </div>
 <br>
 <br>
-<input type='checkbox'>Make this my default address</input>
- <p><b>Delivery instructions (optional)<b></p>
- <p class='high'> <span class="material-symbols-outlined">
+ <div class='left'>
+   <input type='checkbox'>Make this my default address</input></div>
+ <h4>Delivery instructions (optional)</h4>
+ <p class='ending'> 
+   <span class="material-symbols-outlined">
 keyboard_arrow_down
 </span> Add preferences, notes, access codes and more</p>
-<button>Add address</button>  
- </form>
+<button>Add address</button>   
+</form>
 </body>
 </html>
